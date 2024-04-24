@@ -1,0 +1,327 @@
+.nav-justified-left {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-left: 30%;
+  /* Adjust the margin as needed */
+
+
+}
+
+body {
+  background-color: rgb(197, 190, 190);
+}
+
+.customnavbar {
+
+  margin-left: 9%;
+  margin-right: 18%;
+}
+/* .shortcutmenu{
+  position: relative;
+  
+  margin-top: -22%;
+  padding-left: 11%;
+  
+  justify-content: center;
+  align-items: center;
+ 
+} */
+.carousel{
+  position: relative;
+}
+.btnshortcutmenu{
+ margin-bottom: 20%;
+}
+.center{
+  background-color: white;
+}
+.centertitle{
+  margin-left: 15%;
+  margin-top: 1%;
+  
+
+}
+.execellence{
+  
+    /* width: max-content; */
+    height: auto;
+    padding: 20px;
+    /* margin-left: 5%; */
+    /* margin-top: auto; */
+    /* margin-bottom: 3%; */
+    /* padding: 0px !important; */
+    border: 1px solid rgb(10, 242, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  /* flipcardcss */
+  /* background-color: transparent;
+  perspective: 1000px;; */
+  
+}
+/* .flip-card-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.execellence:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+} */
+.healthtipstitle{
+  margin-left: 15%;
+  margin-top: 1%;
+}
+.health{
+  background-color: white;
+}
+.healthcol{
+  padding: 5%;
+}
+
+
+/* .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 250px;
+} */
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.health-table .btn {
+  padding: 7px 15px;
+  width: 120px;
+  border: 1px solid #eaeaea;
+  color: #4c4c4c;
+  border-radius: 12px;
+}
+.health-table .rgt {
+  color: #fff !important;
+  background: linear-gradient(90deg, rgba(18, 162, 164, 1) 0%, rgba(18, 138, 164, 1) 99%) !important;
+}
+.btn_clr_w {
+  color: #fff !important;
+}
+.rgt {
+  float: right;
+}
+.readmore {
+  border-radius: 30px;
+  margin-top: -30px;
+  font-size: 12px;
+  padding: 5px 12px;
+  background: #fff !important;
+  color: #1295a4 !important;
+}.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.health-table .btn {
+    padding: 7px 15px;
+    width: 120px;
+    border: 1px solid #eaeaea;
+    color: #4c4c4c;
+}
+.health-table .rgt {
+    color: #fff !important;
+    background: linear-gradient(90deg, rgba(18, 162, 164, 1) 0%, rgba(18, 138, 164, 1) 99%) !important;
+}
+.btn_clr_w {
+    color: #fff !important;
+}
+.rgt {
+    float: right;
+}
+.readmore {
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 5px 12px;
+    background: #fff !important;
+    color: #1295a4 !important;
+}
+.health-table {
+  background: #f9f9f9;
+  position: relative;
+}
+.health-table .single-table {
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 34px;
+}
+.health-table .single-table .table-head {
+  text-align: center;
+  margin-top: 20px;
+}
+.health-table .single-table .title {
+  font-size: 17px;
+  color: #2C2D3F;
+  margin-top: 15px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.health-table .single-table .para {
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+/* .anime-end-1 {
+  opacity: 1;
+  transform: translate3d(0, 0, 0, 0);
+}
+.anime-start-1 {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0, 0);
+  transition: .3s;
+} */
+/* .health-table {
+  background: #f9f9f9;
+  position: relative;
+} */
+.section {
+  padding: 30px 0px;
+}
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+/*Covid19*/
+/* .cov19{
+  /* width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; */
+   
+.special{
+  display: flex;
+  justify-content: center;
+}
+.Covid-19{
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+
+}
+.client{
+  /* position: relative; */
+  padding: 5%;
+    background: url("clientbackimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutus{
+  background-color: white;
+}
+.coverdetail{
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-right: 5%;
+  
+}
+.imgabout{
+  padding-left: 5%;
+  padding-top: 4%;
+  padding-right: 5%;
+}
+
+.faq{
+  padding-left: 21%;
+    padding-right: 22%;
+}
+@media screen and (min-width: 768px) {
+  .nav-justified-left {
+    padding-left: 30%;
+  }
+
+  .customnavbar {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .shortcutmenu{
+    /* position: absolute; */
+    position: relative;
+    margin-top: -13%;
+    /* padding-left: 5%; */
+    
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .carousel{
+    position: relative;
+  }
+  .btnshortcutmenu{
+    margin-bottom: 20%;
+   }
+  
+}
+
+@media screen and (max-width:768px)
+{
+  .nav-justified-left {
+    padding-left: 30%;
+  }
+
+  .customnavbar {
+    margin-left: 9%;
+    margin-right: 18%;
+  }
+  .shortcutmenu{
+    /* position: absolute; */
+    position: relative;
+    margin-top: -1%;
+    padding-left: 20%;
+    
+   
+   
+  }
+  .carousel{
+    position: relative;
+  }
+  .btnshortcutmenu{
+    margin-bottom: 20%;
+   }
+}
+@media screen and(max-width:1600px){
+  .shortcutmenu{
+    /* position: absolute; */
+    position: relative;
+    margin-top: -2%;
+    /* padding-left: 20%; */
+    justify-content: center;
+    align-items: center;
+}
+} 
+
